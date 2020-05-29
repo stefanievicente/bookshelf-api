@@ -32,19 +32,19 @@ errors = {
          "status": 400
      },
      "BookAlreadyExistsError": {
-         "message": "Movie with given name already exists",
+         "message": "Book with given title already exists",
          "status": 400
      },
      "UpdatingBookError": {
-         "message": "Updating movie added by other is forbidden",
+         "message": "Updating book added by other is forbidden",
          "status": 403
      },
      "DeletingBookError": {
-         "message": "Deleting movie added by other is forbidden",
+         "message": "Deleting book added by other is forbidden",
          "status": 403
      },
      "BookNotExistsError": {
-         "message": "Movie with given id doesn't exists",
+         "message": "Book with given id doesn't exists",
          "status": 400
      },
      "EmailAlreadyExistsError": {

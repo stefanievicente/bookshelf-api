@@ -19,7 +19,7 @@ app.config['MONGODB_SETTINGS'] = {
 initialize_db(app)
 initialize_routes(api)
 
-app.run()
+app.run(debug=True)
 
 # export ENV_FILE_LOCATION=./.env
 
