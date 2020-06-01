@@ -13,7 +13,7 @@ bcrypt = Bcrypt(app)
 jwt = JWTManager(app)
 
 app.config['MONGODB_SETTINGS'] = {
-    'host': 'mongodb+srv://stefanie:melancia33@cluster0-juzew.gcp.mongodb.net/test?retryWrites=true&w=majority'
+    'host': 'mongodb+srv://stefanie:5Xj7x5kKRbqFSDM@cluster0-juzew.gcp.mongodb.net/test?retryWrites=true&w=majority'
 }
 
 initialize_db(app)
@@ -22,5 +22,3 @@ initialize_routes(api)
 app.run(debug=True)
 
 # export ENV_FILE_LOCATION=./.env
-
-# https://dev.to/paurakhsharma/flask-rest-api-part-5-password-reset-2f2e
